@@ -1,0 +1,11 @@
+NODE_ENV=production
+# CONFIG
+FASTIFY_PORT=3000
+FASTIFY_CLUSTER_WORKERS=0
+
+# REVIEW THE PROJECT INSTALLED TO COMPLETE ENV VARIABLES
+SSO_MONGO_URL=mongodb+srv://username:key@cluster0.pcdvgpe.mongodb.net/te-pille?retryWrites=true&w=majority&appName=Cluster0
+DGG_MONGO_URL=mongodb+srv://usuario:password@cluster0.abc.mongodb.net/game_db
+
+JWT_SECRET=esta_es_una_frase_secreta_muy_larga_para_firmar_tokens_12345
+
